@@ -2,7 +2,10 @@
 	"name": "order-strikes-back-ui",
 	"version": "1.0.0",
 	"description": "Library with common components used across Order Stikes Back services",
-	"main": "src/index.ts",
+	"source": "src/index.ts",
+	"main": "lib/index.js",
+	"module": "lib/index.mjs",
+	"types": "lib/index.d.mts",
 	"scripts": {
 		"build": "rm -rf ./lib && tsup",
 		"lint": "tsc"
