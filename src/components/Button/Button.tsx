@@ -1,5 +1,6 @@
 import { useVariant } from "./hooks/useVariant";
 import { useButtonIcon } from "./hooks/useButtonIcon";
+import "../../styles/style.css";
 
 const getSize = {
 	small: "btn-sm",

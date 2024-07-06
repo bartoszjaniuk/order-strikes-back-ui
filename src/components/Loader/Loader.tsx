@@ -1,3 +1,5 @@
+import "../../styles/style.css";
+
 type Props = {
 	size?: "small" | "large";
 };
