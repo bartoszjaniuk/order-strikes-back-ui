@@ -1,5 +1,11 @@
 # order-strikes-back-ui
 
+## 2.0.1
+
+### Patch Changes
+
+- 045ae87: add postcss-cli
+
 ## 2.0.0
 
 ### Major Changes
