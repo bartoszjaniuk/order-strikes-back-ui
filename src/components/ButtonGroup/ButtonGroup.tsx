@@ -1,6 +1,5 @@
 export type Direction = "row" | "column" | "column-reverse" | "row-reverse";
 export type ResponsiveDirection = Direction | [Direction, Direction];
-import "../../styles/style.css";
 
 type TailwindDirections =
 	| "flex-row"
