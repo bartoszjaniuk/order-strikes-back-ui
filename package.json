@@ -8,7 +8,11 @@
 	"types": "lib/index.d.mts",
 	"scripts": {
 		"build": "rm -rf ./lib && tsup",
-		"lint": "tsc"
+		"lint": "tsc",
+		"changeset": "changeset",
+		"version": "changeset version",
+		"prepublishOnly": "changeset prepublish",
+		"postpublish": "changeset postpublish"
 	},
 	"keywords": [
 		"react",
