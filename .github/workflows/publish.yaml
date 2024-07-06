@@ -17,12 +17,14 @@ jobs:
         run: npm ci
       - name: Create and version changeset
         run: |
-          git config --global user.email "janiukbartosz@gmail.com"
-          git config --global user.name "bartoszjaniuk"
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
           npx changeset version
           git add .
           git commit -m "chore: version packages"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Build project
         run: npm run build
       - name: Publish package
