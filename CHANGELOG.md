@@ -1,5 +1,11 @@
 # order-strikes-back-ui
 
+## 2.0.0
+
+### Major Changes
+
+- 81e5111: add css bundling
+
 ## 1.0.3
 
 ### Patch Changes
