@@ -15,7 +15,6 @@
 		"postpublish": "changeset postpublish"
 	},
 	"keywords": [
-		"react",
 		"react.js",
 		"typescript",
 		"components",
