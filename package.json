@@ -11,8 +11,7 @@
 		"lint": "tsc",
 		"changeset": "changeset",
 		"version": "changeset version",
-		"prepublishOnly": "changeset prepublish",
-		"postpublish": "changeset postpublish"
+		"postversion": "git push --follow-tags"
 	},
 	"keywords": [
 		"react.js",
