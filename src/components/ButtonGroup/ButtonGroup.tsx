@@ -56,5 +56,5 @@ const includePossibleClasses = () => {
 		"lg:flex-row-reverse",
 		"lg:flex-col-reverse",
 	];
-	// This function doesn't need to return anything, it's just to ensure the classes are included 🤯
+	// This function doesn't need to return anything, it's just to ensure the classes are included 🤯🤯
 };
