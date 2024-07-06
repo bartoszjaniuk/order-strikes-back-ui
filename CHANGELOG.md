@@ -4,6 +4,12 @@
 
 ### Patch Changes
 
+- 5716504: delete invalid commands
+
+## 1.0.3
+
+### Patch Changes
+
 - 30580c8: fix import
 
 ## 1.0.2
