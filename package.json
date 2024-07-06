@@ -7,7 +7,8 @@
 	"module": "lib/index.mjs",
 	"types": "lib/index.d.mts",
 	"scripts": {
-		"build": "rm -rf ./lib && tsup",
+		"build:css": "postcss src/styles/style.css -o lib/styles.css",
+		"build": "rm -rf ./lib && tsup && npm run build:css",
 		"lint": "tsc",
 		"changeset": "changeset",
 		"version": "changeset version",
