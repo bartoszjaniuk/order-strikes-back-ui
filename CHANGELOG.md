@@ -1,5 +1,11 @@
 # order-strikes-back-ui
 
+## 1.0.3
+
+### Patch Changes
+
+- 30580c8: fix import
+
 ## 1.0.2
 
 ### Patch Changes
