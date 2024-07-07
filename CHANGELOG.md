@@ -1,5 +1,11 @@
 # order-strikes-back-ui
 
+## 2.0.6
+
+### Patch Changes
+
+- 17750a5: adjust package.json
+
 ## 2.0.5
 
 ### Patch Changes
