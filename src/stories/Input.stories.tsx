@@ -47,7 +47,7 @@ export const FullWidth: Story = {
 	},
 
 	decorators: (Story) => (
-		<div className="w-screen">
+		<div className="min-w-96">
 			<Story args={{ isFullWidth: true, label: "Field with Full Width" }} />
 		</div>
 	),
