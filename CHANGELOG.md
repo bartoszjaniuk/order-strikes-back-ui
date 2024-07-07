@@ -1,5 +1,11 @@
 # order-strikes-back-ui
 
+## 2.0.7
+
+### Patch Changes
+
+- 079e138: update storybook
+
 ## 2.0.6
 
 ### Patch Changes
