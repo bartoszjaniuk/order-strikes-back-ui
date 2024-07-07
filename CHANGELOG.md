@@ -1,5 +1,11 @@
 # order-strikes-back-ui
 
+## 2.0.2
+
+### Patch Changes
+
+- e2d113d: add storybook
+
 ## 2.0.1
 
 ### Patch Changes
