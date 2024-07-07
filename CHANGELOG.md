@@ -1,5 +1,11 @@
 # order-strikes-back-ui
 
+## 2.0.8
+
+### Patch Changes
+
+- b4afdab: add input component
+
 ## 2.0.7
 
 ### Patch Changes
