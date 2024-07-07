@@ -21,6 +21,9 @@
 		"components",
 		"ui"
 	],
+	"files": [
+		"lib"
+	],
 	"author": "Bartosz",
 	"license": "MIT",
 	"devDependencies": {
