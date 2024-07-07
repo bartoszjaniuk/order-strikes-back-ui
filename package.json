@@ -1,6 +1,6 @@
 {
 	"name": "order-strikes-back-ui",
-	"version": "2.0.2",
+	"version": "2.0.3",
 	"description": "Library with common components used across Order Stikes Back services",
 	"source": "src/index.ts",
 	"main": "lib/index.js",
