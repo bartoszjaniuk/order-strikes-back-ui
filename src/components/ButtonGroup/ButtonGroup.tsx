@@ -1,4 +1,12 @@
-export type Direction = "row" | "column" | "column-reverse" | "row-reverse";
+export const directions = [
+	"row",
+	"column",
+	"column-reverse",
+	"row-reverse",
+] as const;
+
+export type Direction = (typeof directions)[number];
+
 export type ResponsiveDirection = Direction | [Direction, Direction];
 import React from "react";
 import "../../styles/style.css";
@@ -9,7 +17,7 @@ type TailwindDirections =
 	| "flex-col-reverse"
 	| "flex-row-reverse";
 
-const directionMap: Record<Direction, TailwindDirections> = {
+export const directionMap: Record<Direction, TailwindDirections> = {
 	row: "flex-row",
 	column: "flex-col",
 	"row-reverse": "flex-row-reverse",

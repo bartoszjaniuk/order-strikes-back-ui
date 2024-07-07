@@ -56,9 +56,14 @@ export const Small: Story = {
 
 export const FullWidth: Story = {
 	args: {
-		isFullWidth: true,
-		children: "Button",
+		isLoading: true,
 	},
+
+	decorators: (Story) => (
+		<div className="w-96 bg-blue-400-300">
+			<Story args={{ isFullWidth: true, children: "Button" }} />
+		</div>
+	),
 };
 
 export const WithIcon: Story = {
