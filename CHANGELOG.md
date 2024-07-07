@@ -1,5 +1,11 @@
 # order-strikes-back-ui
 
+## 2.0.9
+
+### Patch Changes
+
+- 154f882: redeploy
+
 ## 2.0.8
 
 ### Patch Changes
