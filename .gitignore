@@ -197,3 +197,4 @@ freeline_project_description.json
 .nfs*
 
 # End of https://www.gitignore.io/api/reactnative
+*storybook.log

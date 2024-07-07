@@ -1,3 +1,5 @@
+import React from "react";
+
 import { useVariant } from "./hooks/useVariant";
 import { useButtonIcon } from "./hooks/useButtonIcon";
 import "../../styles/style.css";

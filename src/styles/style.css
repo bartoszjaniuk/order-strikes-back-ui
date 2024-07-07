@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.btn-lg {
+		@apply h-12 px-8 py-2.5 items-center text-xl;
+	}
+	.btn-sm {
+		@apply h-10 px-6 py-2.5 items-center;
+	}
+}
