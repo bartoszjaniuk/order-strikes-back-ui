@@ -1,8 +1,6 @@
-import React from "react";
-
 import { useVariant } from "./hooks/useVariant";
 import { useButtonIcon } from "./hooks/useButtonIcon";
-import "../../styles/style.css";
+import React from "react";
 
 const getSize = {
 	small: "btn-sm",

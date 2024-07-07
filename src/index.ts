@@ -1,3 +1,3 @@
 import "./styles/style.css";
 
-export * from "./components";
+export default {};
