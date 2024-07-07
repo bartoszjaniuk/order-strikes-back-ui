@@ -22,7 +22,9 @@
 		"ui"
 	],
 	"files": [
-		"lib"
+		"src",
+		"lib",
+		"package.json"
 	],
 	"author": "Bartosz",
 	"license": "MIT",
